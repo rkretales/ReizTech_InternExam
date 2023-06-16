@@ -2,8 +2,8 @@
 
 namespace ReizTech_InternExam;
 
-internal static class Question1 {
-    private static void Main() {
+public partial class InternExamQuestions {
+    public void Question1() {
         Console.WriteLine("Reiz Tech Intern Exam - Question 1");
         Console.WriteLine("==================================");
         Console.Write("Enter the hours (0-12): ");
@@ -33,7 +33,6 @@ internal static class Question1 {
         // And get the smaller of the two
         angle = Math.Min(360 - angle, angle);
 
-        // ReSharper disable once HeapView.BoxingAllocation
         Console.WriteLine($"The smaller angle between the hour and minute hands is: {angle} degrees.");
         
         // This was a very interesting question, I enjoyed it a lot!

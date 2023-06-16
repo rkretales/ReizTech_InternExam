@@ -40,6 +40,8 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="QuestionSelector.cs" />
+        <Compile Include="Question2.cs" />
         <Compile Include="Question1.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
