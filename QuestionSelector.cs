@@ -26,7 +26,7 @@ internal static class InternExam {
                 case ConsoleKey.Enter:
                     ExecuteSelectedMethod();
                     break;
-                
+
                 case ConsoleKey.Backspace:
                     return;
             }
@@ -34,9 +34,9 @@ internal static class InternExam {
     }
 
     private static void DisplayOptions() {
-        Console.WriteLine("Use the arrow keys to navigate the menu.");
-        Console.WriteLine("Press Enter to select an option.");
-        Console.WriteLine("Press Backspace to exit the program.");
+        Console.WriteLine("Press |↑| or |↓| to navigate the menu.");
+        Console.WriteLine("Press |Enter| to select an option.");
+        Console.WriteLine("Press |Backspace| to exit the program.");
         Console.WriteLine("============================");
         Console.WriteLine("Reiz Tech Intern Examination");
         Console.WriteLine("============================");
