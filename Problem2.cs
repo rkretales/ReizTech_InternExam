@@ -39,7 +39,7 @@ internal class Branch {
     public List<Branch> branches = new();
 
     /// <summary>
-    /// Adds a number of children to the branch.
+    ///     Adds a number of children to the branch.
     /// </summary>
     /// <param name="numberOfChildren"> number of children to add</param>
     public void AddChildren(int numberOfChildren) {
