@@ -41,21 +41,21 @@ internal static class InternExam {
         Console.WriteLine("Reiz Tech Intern Examination");
         Console.WriteLine("============================");
         Console.WriteLine("Select an option:");
-        Console.WriteLine(_selectedOption == 1 ? "-> Method 1" : "   Method 1");
-        Console.WriteLine(_selectedOption == 2 ? "-> Method 2" : "   Method 2");
+        Console.WriteLine(_selectedOption == 1 ? "-> Problem 1" : "   Problem 1");
+        Console.WriteLine(_selectedOption == 2 ? "-> Problem 2" : "   Problem 2");
     }
 
     private static void ExecuteSelectedMethod() {
         Console.Clear();
-        InternExamQuestions questions = new();
+        InternExamProblems problems = new();
 
         switch(_selectedOption) {
             case 1:
-                questions.Question1();
+                problems.Problem1();
                 break;
 
             case 2:
-                questions.Question2();
+                problems.Problem2();
                 break;
         }
 

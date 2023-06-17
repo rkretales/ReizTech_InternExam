@@ -2,8 +2,8 @@
 
 namespace ReizTech_InternExam;
 
-public partial class InternExamQuestions {
-    public void Question1() {
+public partial class InternExamProblems {
+    public void Problem1() {
         Console.WriteLine("Reiz Tech Intern Exam - Question 1");
         Console.WriteLine("==================================");
         Console.Write("Enter the hours (0-12): ");
